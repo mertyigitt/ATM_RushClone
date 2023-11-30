@@ -1,5 +1,5 @@
-using Extensions;
 using Runtime.Enums;
+using Runtime.Extensions;
 using UnityEngine.Events;
 
 namespace Runtime.Signals

@@ -1,7 +1,7 @@
 ﻿//using Tabtale.TTPlugins;
 
 using _Modules.SaveModule.Scripts.Data;
-using Extensions;
+using Runtime.Extensions;
 using Managers;
 using Runtime.Enums;
 using Runtime.Signals;
