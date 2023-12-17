@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using _Modules.ObjectPooling.Scripts.Data.ValueObjects;
 using _Modules.ObjectPooling.Scripts.Enums;
 using Sirenix.OdinInspector;
@@ -9,6 +10,6 @@ namespace _Modules.ObjectPooling.Scripts.Data.UnityObjects
     [CreateAssetMenu(fileName = "CD_Pool", menuName = "MaxedOutEntertainmentModules/CD_Pool", order = 0)]
     public class CD_Pool : SerializedScriptableObject
     {
-        public SerializedDictionary<PoolType, PoolData> PoolList = new SerializedDictionary<PoolType, PoolData>();
+        public Dictionary<PoolType, PoolData> PoolList = new Dictionary<PoolType, PoolData>();
     }
 }

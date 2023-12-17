@@ -24,5 +24,15 @@ namespace Runtime.Commands
                 if (newLevel != null) newLevel.transform.SetParent(_levelManager.levelHolder.transform);
             };
         }
+
+        public void Execute(int parameter)
+        {
+            
+        }
+
+        public void Execute()
+        {
+            throw new System.NotImplementedException();
+        }
     }
 }

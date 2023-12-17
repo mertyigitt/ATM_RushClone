@@ -13,6 +13,11 @@ namespace Runtime.Commands
             _levelManager = levelManager;
         }
 
+        public void Execute(int parameter)
+        {
+            throw new System.NotImplementedException();
+        }
+
         public void Execute()
         {
             Object.Destroy(_levelManager.levelHolder.transform.GetChild(0).gameObject);
