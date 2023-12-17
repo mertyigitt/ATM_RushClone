@@ -33,17 +33,16 @@ MonoBehaviour:
     - Assembly-CSharp-firstpass
     - Boxophobic.PolyverseSkies.Runtime
     - MoreMountains.NiceVibrations.Haptics
+    - MoreMountains.NiceVibrations.Demos
     - Cinemachine
     - sc.stylizedwater2.runtime
-    - MoreMountains.NiceVibrations.Demos
     - Boxophobic.Utils.Scripts
-    - MoreMountains.NiceVibrations
     - sc.stylizedwater2.editor
+    - MoreMountains.NiceVibrations
     - Boxophobic.PolyverseSkies.Scripts
     - Boxophobic.Utils.Editor
-    - PPv2URPConverters
-    - MoreMountains.NiceVibrations.Editor
     - Boxophobic.PolyverseSkies.Editor
+    - MoreMountains.NiceVibrations.Editor
     - Sirenix.OdinInspector.Modules.UnityMathematics
     showAdvancedSettings: 0
   addMgrToSceneAutomatically: 0
